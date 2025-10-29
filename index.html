@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe Clone</title>
+</head>
+<body>
+    <div class="wb-background"></div>
+
+    <!-- Bear popping emote -->
+    <div id="pop-emote" class="pop-emote">
+        <img id="pop-emote-img" src="" alt="" draggable="false">
+    </div>
+
+    <div class="bear-row">
+        <img id="panda-bear" class="bear panda animated" src="https://i.postimg.cc/X7NgjtVS/panda.png" alt="Panda Bear" draggable="false">
+        <div class="container">
+            <h1>Tic Tac Toe</h1>
+            <div id="game-board" class="board"></div>
+            <div class="status-container">
+                <span id="status"></span>
+                <button id="reset-btn">Restart Game</button>
+            </div>
+            <!-- Polar Teaser for Victory -->
+            <img id="polar-victory" class="polar-victory" src="" alt="Polar Bear Tease" draggable="false" style="display:none;">
+            <footer>
+                <p>Made <span style="color:#e25555">&#9829;</span> by Maryl Anne</p>
+            </footer>
+            <div style="margin-top:16px;">
+                <a href="welcome.html" style="color:#885522;text-decoration:underline;font-size:0.95em;">Back to Welcome</a>
+            </div>
+        </div>
+        <img id="grizz-bear" class="bear grizz animated" src="https://i.postimg.cc/gJsCKg7H/Grizzly-Bear-Standing.webp" alt="Grizzly Bear" draggable="false">
+    </div>
+    <div id="confetti-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
